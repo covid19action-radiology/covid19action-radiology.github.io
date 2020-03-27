@@ -12,9 +12,11 @@
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/117680e980.js" crossorigin="anonymous"></script>
 
   <!-- Custom fonts for this template -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+  <!-- <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css"> -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -40,17 +42,23 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Mission</a>
+            <a class="nav-link js-scroll-trigger" href="#portfolio2">Mission</a>
           </li>
-<!--           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">Contribute</a>
-          </li> -->
-<!--           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">Timeline</a>
-          </li> -->
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#portfolio">Contribute</a>
+          </li>
+          
     		<li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Join us</a>
+            <a class="nav-link js-scroll-trigger" href="#contact">Enroll</a>
           </li>
+    	  <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#initiators">Initiators</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">Timeline</a>
+          </li>
+
+
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#team">Team</a>
           </li>
@@ -65,7 +73,7 @@
     <div class="container">
       <div class="intro-text">
         <!-- <div class="intro-lead-in">Covid-19 Dataport</div> -->
-        <div class="intro-heading text-uppercase">Covid-19 Dataport</div>
+        <!-- <div class="intro-heading text-uppercase">Covid-19 Dataport</div> -->
 
       <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services"><i class="fas fa-angle-double-down"></i></a>
       
@@ -85,19 +93,21 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase"> </h2>
-          <p class="section-subheading text-muted">Radiological investigations have a high sensitivity for diagnosing COVID-19. We are a pro bono public health research initiative building the COVID-19 RADS and your contribution with scans and observations can help us build AI assisted reporting and data standards. We also welcome AI model builders and data science researchers to engineer scalable rapid screening solutions.</p>
+          <p class="section-subheading text-muted">Radiological investigations have a high sensitivity for diagnosing COVID-19. We are a pro bono public health research initiative building the COVID-19 RADS and your contribution with scans and observations can help us build AI assisted reporting and data standards. We also welcome AI model builders and data science researchers to engineer scalable rapid screening solutions. We welcome Physicians, Public Health researchers and practitioners, Policy Makers, AI model builders and data science researchers, Pro bono initiatives, organizations and individuals dedicated to use the datasets and engineer scalable rapid screening solutions.</p>
+          <p class="section-subheading text-muted" > <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019"> Coronavirus disease 2019 (COVID-19) </a> is an infectious disease caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). The World Health Organization (WHO) declared the 2019–20 coronavirus outbreak a Public Health Emergency of International Concern (PHEIC) on 30 January 2020 and a pandemic on 11 March 2020.</p>
+
+          <p class="section-subheading text-muted" >COVID-19 RADS is a community intellect contribution driven Radiology Reporting and Data Standards for clinical management of COVID-19 symptomatic cases.</p>
         </div>
       </div>
 
     </div>
   </section>
 
-  <!-- Portfolio Grid -->
-  <section class="bg-light page-section" id="portfolio">
+  <section class="bg-light page-section" id="portfolio2">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase"> Our Mission</h2>
+          <h2 class="section-heading text-uppercase"> Join Our Mission</h2>
           <h3 class="section-subheading text-muted"></h3>
         </div>
       </div>
@@ -121,7 +131,9 @@
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-pencil-ruler fa-stack-1x fa-inverse"></i>
+            <!-- <i class="fas fa-lungs-virus "></i> -->
+            <i class="fas fa-lungs-virus fa-stack-1x fa-inverse"></i>
+            <!-- <i class="fas fa-lungs-virus fa-stack-1x fa-inverse"></i> -->
           </span>
           <h4 class="service-heading">Contribute Annotations to COVID-19 RADS</h4>
           <p class="text-muted">As a Radiologist you can contribute by annotating our existing library of cases with your observations. These crowdsourced annotations will be used for associating observations to diagnostic outcomes indicative of COVID-19, assisted by AI models to accelerate this process.  Share anonymously under CC BY-NC-SA 4.0.</p>
@@ -130,7 +142,7 @@
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-brain fa-stack-1x fa-inverse"></i>
+            <i class="fas fa-table fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">Access Dataset to build AI Models</h4>
           <p class="text-muted">As an AI model builder and data science researcher, you can gain access to X-ray and CT scans, annotations of observations in COVID-19 RADS, shared anonymously under CC BY-NC-SA 4.0 for building image based screening models and to refine the COVID-19 RADS.</p>
@@ -139,7 +151,7 @@
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-server fa-stack-1x fa-inverse"></i>
+            <i class="fas fa-upload fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">Contribute to the AI Model Zoo</h4>
           <p class="text-muted">Share your AI models for COVID-19 RADS improvisation and image classification on our model zoo, which can be accessed by others in the community for accelerating and scaling up radiological screening for COVID-19. Share your code base under Apache-2.0 and trained models under CC BY-NC-SA 4.0.</p>
@@ -156,20 +168,146 @@
       </div>
     </div>
   </section>
-  <!-- Clients -->
-  <section class="py-5">
+ 
+ <section class=" page-section" id="portfolio">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase"> INITIATORS AND SUPPORTERS</h2>
-          <!-- <p class="section-subheading text-muted">-----------------------------</p> -->
+          <h2 class="section-heading text-uppercase">I would like to contribute.</h2>
+          <h3 class="section-subheading text-muted">I am a</h3>
         </div>
-        <div class="col-md-3 col-sm-6">
-          <a href="#">
-            <img class="img-fluid d-block mx-auto" src="img/logos/iitklivlogo.png" alt="">
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/radiologist.jpg" alt="">
           </a>
+          <div class="portfolio-caption">
+            <h4>Radiologist</h4>
+            <!-- <p class="text-muted">Illustration</p> -->
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/physician.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Physician</h4>
+            <!-- <p class="text-muted">Graphic Design</p> -->
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/health_researcher.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Public Health Researcher and Practitioner</h4>
+            <!-- <p class="text-muted">Identity</p> -->
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/ai.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>AI and Data Scientist</h4>
+            <!-- <p class="text-muted">Branding</p> -->
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/policy.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Policy Maker</h4>
+            <!-- <p class="text-muted">Website Design</p> -->
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/pro_bono.png" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Pro bono initiative</h4>
+            <!-- <p class="text-muted">Photography</p> -->
+          </div>
         </div>
 
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal7">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/society.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Professional association</h4>
+            <!-- <p class="text-muted">Photography</p> -->
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal8">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/hospital.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Industry / University / Hospital / Lab</h4>
+            <!-- <p class="text-muted">Photography</p> -->
+          </div>
+        </div>
+
+
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal9">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/volunteer.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Volunteer / Organization</h4>
+            <!-- <p class="text-muted">Photography</p> -->
+          </div>
+        </div>
 
 
       </div>
@@ -181,12 +319,12 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Enroll and Contribute</h2>
+          <a href=" "><button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Fill Form</button></a>
           <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <form id="contactForm" action="https://www.formbackend.com/f/d3c5ef279325a40b" method="POST">
+      <!-- <div class="row"> -->
+          <!-- <form id="contactForm" action="https://www.formbackend.com/f/d3c5ef279325a40b" method="POST">
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group">
@@ -214,29 +352,33 @@
                 <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
               </div>
             </div>
-          </form>
+          </form> -->
         </div>
       </div>
-    </div>
   </section>
 
-  <section class="py-5">
+  <section class="py-5" id="initiators">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase"> Ethics and Data Protection</h2>
-          <p class="text-muted">Contributor identity is anonymized and shall not be shared with anyone unless waived off by the contributor. De-anonymized data shall be shared only when required by Law of India. All other information as indicated in the license file are shared under CC BY-NC-SA 4.0 or Apache-2.0.</p>
+          <h2 class="section-heading text-uppercase"> INITIATORS AND SUPPORTERS</h2>
+          <!-- <p class="section-subheading text-muted">-----------------------------</p> -->
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <a href="#">
+            <img class="img-fluid d-block mx-auto" src="img/logos/iitklivlogo.png" alt="">
+          </a>
         </div>
       </div>
     </div>
   </section>
 
-<!--   <section class="page-section" id="about">
+  <section class=" bg-light page-section" id="about">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Timeline</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
         </div>
       </div>
       <div class="row">
@@ -248,11 +390,11 @@
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4>(Date)</h4>
-                  <h4 class="subheading">Data Collection</h4>
+                  <h4>26 March 2020</h4>
+                  <!-- <h4 class="subheading">Launch of the portal and enrolment started.</h4> -->
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted"> Hospitals and organizations can upload CT and XR images in jpeg and dicom formats through our data collection portal.</p>
+                  <p class="text-muted"> Launch of the portal and enrolment started.</p>
                 </div>
               </div>
             </li>
@@ -262,11 +404,11 @@
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4>(Date)</h4>
-                  <h4 class="subheading">Data annotation</h4>
+                  <h4>27 March 2020</h4>
+                  <!-- <h4 class="subheading">Data annotation</h4> -->
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Data will be made available in data annotation portal for registered radiologists.</p>
+                  <p class="text-muted">COVID-19 RADS and whitepaper released.</p>
                 </div>
               </div>
             </li>
@@ -276,16 +418,58 @@
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4>(Date)</h4>
-                  <h4 class="subheading">AI screening solution</h4>
+                  <h4>(TBA)</h4>
+                  <!-- <h4 class="subheading">AI screening solution</h4> -->
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Work on AI screening solution set to begin.</p>
+                  <p class="text-muted">Data port open for contributions</p>
                 </div>
               </div>
-            </li> -->
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>(TBA)</h4>
+                  <!-- <h4 class="subheading">AI screening solution</h4> -->
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Case reports available for browsing</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>(TBA)</h4>
+                  <!-- <h4 class="subheading">AI screening solution</h4> -->
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Dataset access for AI Model builders</p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>(TBA)</h4>
+                  <!-- <h4 class="subheading">AI screening solution</h4> -->
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">AI Model Zoo launched</p>
+                </div>
+              </div>
+            </li>
 
-<!--             <li class="timeline-inverted">
+            <li >
               <div class="timeline-image">
                 <h4>Be Part
                   <br>Of Our
@@ -296,15 +480,29 @@
         </div>
       </div>
     </div>
-  </section> -->
+  </section>
 
-  <!-- Team -->
-  <section class="bg-light page-section" id="team">
+
+<section class=" page-section">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Covid-19 Action group </h2>
-          <h2 class="section-subheading text-muted">on AI and Radiology</h2>
+          <h2 class="section-heading text-uppercase"> Ethics and Data Protection</h2>
+          <p class="text-muted">Contributor identity is anonymized and shall not be shared with anyone unless waived off by the contributor. De-anonymized data shall be shared only when required by Law of India. All other information as indicated in the license file are shared under CC BY-NC-SA 4.0 or Apache-2.0.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Team -->
+  <section class=" bg-light page-section" id="team">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Team </h2>
+          <!-- <h2 class="section-subheading text-muted">on AI and Radiology</h2> -->
         </div>
       </div>
       <div class="row">
@@ -317,16 +515,16 @@
         </div>
         <div class="col-sm-4">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/ac.jpg" alt="">
-            <h4>Arunava Chakravarty</h4>
-            <!-- <p class="text-muted">Lead Marketer</p> -->
+            <img class="mx-auto rounded-circle" src="img/team/dr-tandra.jpg" alt="">
+            <h4>Dr.Tandra Sarkar </h4>
+            <!-- <p class="text-muted">Lead Designer</p> -->
           </div>
         </div>
         <div class="col-sm-4">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/rs1.jpg" alt="">
-            <h4>Rachana Sathish</h4>
-            <!-- <p class="text-muted">Lead Developer</p> -->
+            <img class="mx-auto rounded-circle" src="img/team/ac.jpg" alt="">
+            <h4>Arunava Chakravarty</h4>
+            <!-- <p class="text-muted">Lead Marketer</p> -->
           </div>
         </div>
       </div>
@@ -334,7 +532,14 @@
       <div class="row">
         <div class="col-sm-4">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/rs2.jpg" alt="">
+            <img class="mx-auto rounded-circle" src="img/team/rs1.jpg" alt="">
+            <h4>Rachana Sathish</h4>
+            <!-- <p class="text-muted">Lead Developer</p> -->
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/team/rs4.jpg" alt="">
             <h4>Rakshith Sathish</h4>
             <!-- <p class="text-muted">Lead Designer</p> -->
           </div>
@@ -346,6 +551,9 @@
             <!-- <p class="text-muted">Lead Marketer</p> -->
           </div>
         </div>
+
+      </div>
+      <div class="row">
         <div class="col-sm-4">
           <div class="team-member">
             <img class="mx-auto rounded-circle" src="img/team/rony.jpg" alt="">
@@ -353,8 +561,6 @@
             <!-- <p class="text-muted">Lead Developer</p> -->
           </div>
         </div>
-      </div>
-      <div class="row">
         <div class="col-sm-4">
           <div class="team-member">
             <img class="mx-auto rounded-circle" src="img/team/vel.jpg" alt="">
@@ -369,23 +575,16 @@
             <!-- <p class="text-muted">Lead Marketer</p> -->
           </div>
         </div>
+        </div>
+
+        <div class="row">
         <div class="col-sm-4">
           <div class="team-member">
             <img class="mx-auto rounded-circle" src="img/team/Vikas.jpg" alt="">
             <h4>Vikas Kumar</h4>
             <!-- <p class="text-muted">Lead Developer</p> -->
           </div>
-        </div>
-      </div>
-
-      <div class="row">
-<!--         <div class="col-sm-4">
-          <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
-            <h4></h4>
-            <p class="text-muted">Lead Designer</p>
-          </div>
-        </div> -->
+      	</div>
         <div class="col-sm-4">
           <div class="team-member">
             <img class="mx-auto rounded-circle" src="img/team/atul.jpg" alt="">
@@ -400,7 +599,10 @@
             <!-- <p class="text-muted">Lead Developer</p> -->
           </div>
         </div>
-      </div>      
+      </div>     
+      
+
+       
 <!--       <div class="row">
         <div class="col-lg-8 mx-auto text-center">
           <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
@@ -415,7 +617,7 @@
 
 
   <!-- Footer -->
-  <footer class="footer">
+  <footer class=" footer">
     <div class="container">
       <div class="row align-items-center">
       	        <div class="text-center">
@@ -428,6 +630,16 @@
         <div class="col-md-4">
           <ul class="list-inline social-buttons">
             <li class="list-inline-item">
+              <a href="https://www.linkedin.com/company/covid19action-radiology/">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/covid19actionRadiology/">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
               <a href="https://github.com/iitkliv">
                 <i class="fab fa-github"></i>
               </a>
@@ -437,11 +649,6 @@
                 <i class="fas fa-laptop"></i>
               </a>
             </li>
-<!--             <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-            </li> -->
           </ul>
         </div>
         <div class="col-md-4">
@@ -474,18 +681,18 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Data Collection</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
+                <h2 class="text-uppercase">Radiologist</h2>
+                <!-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> -->
+                <!-- <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt=""> -->
+                <p>You can contribute scans or annotate cases in our library of X-Ray and CT scans of suspicious COVID-19 cases, pneumonia and associated co-morbidities. Enroll and start contributing to build COVID-19 RADS.</p>
+<!--                 <ul class="list-inline">
                   <li>Date: January 2017</li>
                   <li>Client: Threads</li>
                   <li>Category: Illustration</li>
-                </ul>
+                </ul> -->
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
-                  Close Project</button>
+                  Close details</button>
               </div>
             </div>
           </div>
@@ -508,18 +715,18 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
+                <h2 class="text-uppercase">Physician</h2>
+                <!-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> -->
+                <!-- <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt=""> -->
+                <p>You can contribute COVID-19 scans to our dataport and contribute to building the patient handling and clinical management protocol for Radiological scanning. Any other views are also welcome. Enroll and start contributing to build COVID-19 RADS.</p>
+<!--                 <ul class="list-inline">
                   <li>Date: January 2017</li>
                   <li>Client: Explore</li>
                   <li>Category: Graphic Design</li>
-                </ul>
+                </ul> -->
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
-                  Close Project</button>
+                  Close details</button>
               </div>
             </div>
           </div>
@@ -542,18 +749,18 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
+                <h2 class="text-uppercase">Public Health Researcher and Practitioner</h2>
+                <!-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> -->
+                <!-- <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt=""> -->
+                <p>You can contribute to whitepapers and discussion groups on building COVID-19 RADS with inclusion of public health concerns in the overall management of suspicious subjects. Enroll and start contributing to build COVID-19 RADS.</p>
+<!--                 <ul class="list-inline">
                   <li>Date: January 2017</li>
                   <li>Client: Finish</li>
                   <li>Category: Identity</li>
-                </ul>
+                </ul> -->
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
-                  Close Project</button>
+                  Close details</button>
               </div>
             </div>
           </div>
@@ -576,18 +783,18 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
+                <h2 class="text-uppercase">AI and Data Scientist</h2>
+                <!-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> -->
+                <!-- <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt=""> -->
+                <p>You can contribute by analysing the data, relating Radiologists’ observations to diagnostic outcomes and algorithmically accelerate development of the COVID-19 RADS as well as build AI models to scale up Radiological rapid screen of symptomatic subjects.</p>
+<!--                 <ul class="list-inline">
                   <li>Date: January 2017</li>
                   <li>Client: Lines</li>
                   <li>Category: Branding</li>
-                </ul>
+                </ul> -->
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
-                  Close Project</button>
+                  Close details</button>
               </div>
             </div>
           </div>
@@ -610,18 +817,18 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
+                <h2 class="text-uppercase">Policy Maker</h2>
+                <!-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> -->
+                <!-- <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt=""> -->
+                <p>You can contribute to the COVID-19 management strategy by making use of our whitepapers and listing of related literatures. You can also contribute a policy document which shall be of relevance to COVID-19 RADS. Enroll and start contributing to build COVID-19 RADS.</p>
+<!--                 <ul class="list-inline">
                   <li>Date: January 2017</li>
                   <li>Client: Southwest</li>
                   <li>Category: Website Design</li>
-                </ul>
+                </ul> -->
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
-                  Close Project</button>
+                  Close Details</button>
               </div>
             </div>
           </div>
@@ -644,18 +851,122 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
+                <h2 class="text-uppercase">Pro bono initiative</h2>
+                <!-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> -->
+                <!-- <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt=""> -->
+                <p>You can partner with us, exchanging anonymized data of relevance to building the COVID-19 RADS and list your initiative as a supporter to pool in our mutual strengths. Enroll and collaborate to co-build COVID-19 RADS.</p>
+<!--                 <ul class="list-inline">
                   <li>Date: January 2017</li>
                   <li>Client: Window</li>
                   <li>Category: Photography</li>
-                </ul>
+                </ul> -->
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
-                  Close Project</button>
+                  Close Details</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal7  -->
+  <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Professional association</h2>
+                <!-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> -->
+                <!-- <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt=""> -->
+                <p>As a professional association of Engineers, Physicians, Scientists, Teachers and all, you have the ability to collectively create the knowledge base for COVID-19 RADS. Enroll and tell us how you wish to join us and contribute to the cause.</p>
+<!--                 <ul class="list-inline">
+                  <li>Date: January 2017</li>
+                  <li>Client: Window</li>
+                  <li>Category: Photography</li>
+                </ul> -->
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Details</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Modal 8 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Industry / University / Hospital / Lab</h2>
+                <!-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> -->
+                <!-- <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt=""> -->
+                <p>You can extend physical resources like storage, cloud, compute, radiological scanners, PCR reports and intellectual potential to help us build COVID-19 RADS and AI models for screening radiology. Enroll and tell us how you wish to join us.</p>
+<!--                 <ul class="list-inline">
+                  <li>Date: January 2017</li>
+                  <li>Client: Window</li>
+                  <li>Category: Photography</li>
+                </ul> -->
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Details</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Modal  -->
+  <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Volunteer / Organization</h2>
+                <!-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> -->
+                <!-- <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt=""> -->
+                <p>You can contribute with your ideas to the action group beyond our usual comprehension listed here. Enroll and share your views to strengthen this action group and the cause.</p>
+<!--                 <ul class="list-inline">
+                  <li>Date: January 2017</li>
+                  <li>Client: Window</li>
+                  <li>Category: Photography</li>
+                </ul> -->
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Details</button>
               </div>
             </div>
           </div>
