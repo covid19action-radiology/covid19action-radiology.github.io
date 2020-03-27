@@ -145,7 +145,7 @@ img::-moz-selection {
   color: white;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 800px) {
   #mainNav {
     padding-top: 25px;
     padding-bottom: 25px;
@@ -164,7 +164,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #fed136;
+    background-color: #fed503;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
