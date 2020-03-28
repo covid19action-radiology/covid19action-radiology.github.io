@@ -14,11 +14,12 @@ p {
 }
 
 a {
-  color: #fed136;
+  color: rgb(46,108,164);
 }
 
 a:hover {
   color: #fec503;
+  text-decoration: none;
 }
 
 .text-primary {
